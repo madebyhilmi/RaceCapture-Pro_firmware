@@ -474,7 +474,7 @@ typedef struct _BluetoothConfig {
 #define CELL_APN_USER_LENGTH 30
 #define CELL_APN_PASS_LENGTH 30
 #define DNS_ADDR_LEN 16
-#define DEFAULT_APN_HOST "fp.com.attz"
+#define DEFAULT_APN_HOST "sp.telus.com"
 #define DEFAULT_APN_USER ""
 #define DEFAULT_APN_PASS ""
 #define DEFAULT_CELL_ENABLED 0
@@ -495,7 +495,7 @@ typedef struct _CellularConfig {
 #define TELEMETRY_SERVER_HOST_LENGTH 95
 
 #define DEFAULT_DEVICE_ID ""
-#define DEFAULT_TELEMETRY_SERVER_HOST "telemetry.race-capture.com"
+#define DEFAULT_TELEMETRY_SERVER_HOST "35.239.47.176"
 #define DEFAULT_TELEMETRY_SERVER_PORT 8080
 
 #define BACKGROUND_STREAMING_ENABLED				1

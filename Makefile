@@ -19,9 +19,9 @@
 # this code. If not, see <http://www.gnu.org/licenses/>.
 #
 
-export MAJOR  := $(shell git describe | cut -d \- -f 1 | cut -d . -f 1)
-export MINOR  := $(shell git describe | cut -d \- -f 1 | cut -d . -f 2)
-export BUGFIX := $(shell git describe | cut -d \- -f 1 | cut -d . -f 3)
+export MAJOR  := 2
+export MINOR  := 15
+export BUGFIX := 0
 export API    := 1
 
 export VERSION := $(shell git describe --dirty --always)
